@@ -1,0 +1,420 @@
+{
+  "" : {
+    "const-values" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master.swiftconstvalues",
+    "dependencies" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master.d",
+    "diagnostics" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master.dia",
+    "emit-module-dependencies" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVision-master.swiftdeps"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/App/AppConstants.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppConstants.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppConstants.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppConstants.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/App/AppRouter.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppRouter.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppRouter.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AppRouter.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/App/NurseryConnectVisionApp.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVisionApp.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVisionApp.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryConnectVisionApp.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/ClassroomImmersiveView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomImmersiveView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomImmersiveView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomImmersiveView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/DiningImmersiveView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningImmersiveView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningImmersiveView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningImmersiveView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/GardenImmersiveView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GardenImmersiveView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GardenImmersiveView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GardenImmersiveView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/ImmersiveControlsView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveControlsView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveControlsView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveControlsView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/NurseryImmersiveView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryImmersiveView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryImmersiveView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryImmersiveView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/NurseryRealityView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryRealityView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryRealityView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryRealityView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ImmersiveSpace/PlayAreaImmersiveView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaImmersiveView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaImmersiveView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaImmersiveView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/Child.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Child.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Child.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Child.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/ChildAttendance.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildAttendance.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildAttendance.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildAttendance.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/ChildMeal.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildMeal.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildMeal.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildMeal.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/DailyActivity.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailyActivity.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailyActivity.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailyActivity.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/NurseryArea.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryArea.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryArea.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryArea.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/NurseryAreaExtension.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryAreaExtension.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryAreaExtension.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryAreaExtension.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/NurseryEvent.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEvent.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEvent.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEvent.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/Parent.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Parent.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Parent.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Parent.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/SafetyNotice.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyNotice.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyNotice.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyNotice.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/TourLocation.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourLocation.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourLocation.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourLocation.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/TransportStatus.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportStatus.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportStatus.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportStatus.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Models/VehicleStatus.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatus.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatus.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatus.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/RealityKit/NurseryEntities.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEntities.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEntities.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryEntities.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/RealityKit/RealityPrimitiveBuilders.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RealityPrimitiveBuilders.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RealityPrimitiveBuilders.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RealityPrimitiveBuilders.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/AssetLoaderService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AssetLoaderService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AssetLoaderService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AssetLoaderService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/MockDataService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MockDataService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MockDataService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MockDataService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/ParentDashboardService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/SafetyService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/TourService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Services/TransportService.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportService.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportService.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportService.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Utilities/ColorTheme.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ColorTheme.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ColorTheme.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ColorTheme.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Utilities/Constants.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Utilities/DateFormatterHelper.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DateFormatterHelper.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DateFormatterHelper.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DateFormatterHelper.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Utilities/Extensions.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Extensions.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Extensions.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/Extensions.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Utilities/PreviewData.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PreviewData.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PreviewData.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PreviewData.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/ChildActivityViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivityViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivityViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivityViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/ImmersiveViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ImmersiveViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/NurseryTourViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/ParentDashboardViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/SafetyViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/ViewModels/TransportViewModel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportViewModel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportViewModel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportViewModel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Activities/ActivityTimelineView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ActivityTimelineView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ActivityTimelineView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ActivityTimelineView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Activities/AttendanceView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Activities/ChildActivitiesView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivitiesView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivitiesView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildActivitiesView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Activities/EventCalendarView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EventCalendarView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EventCalendarView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EventCalendarView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Activities/MealScheduleView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealScheduleView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealScheduleView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealScheduleView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/AreaDetailCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AreaDetailCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AreaDetailCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AreaDetailCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/EmptyStateView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmptyStateView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmptyStateView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmptyStateView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/FloatingInfoPanel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/FloatingInfoPanel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/FloatingInfoPanel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/FloatingInfoPanel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/GlassCardView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GlassCardView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GlassCardView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/GlassCardView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/SectionHeaderView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SectionHeaderView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SectionHeaderView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SectionHeaderView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/SpatialButton.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SpatialButton.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SpatialButton.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SpatialButton.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Components/StatusBadgeView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/StatusBadgeView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/StatusBadgeView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/StatusBadgeView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/AttendanceCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/AttendanceCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/ChildStatusCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildStatusCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildStatusCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ChildStatusCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/DailySummaryCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailySummaryCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailySummaryCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DailySummaryCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/MealCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MealCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/ParentDashboardView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentDashboardView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Dashboard/TransportCard.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportCard.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportCard.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportCard.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/ClassroomView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ClassroomView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/DiningAreaView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningAreaView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningAreaView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DiningAreaView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/NurseryTourView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/NurseryTourView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/OutdoorAreaView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/OutdoorAreaView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/OutdoorAreaView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/OutdoorAreaView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/PlayAreaView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/PlayAreaView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/ReadingCornerView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ReadingCornerView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ReadingCornerView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ReadingCornerView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/SafetyDeskPreviewView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDeskPreviewView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDeskPreviewView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDeskPreviewView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/NurseryTour/TourInfoPanel.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourInfoPanel.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourInfoPanel.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourInfoPanel.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Safety/ComplianceView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ComplianceView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ComplianceView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ComplianceView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Safety/EmergencyContactsView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmergencyContactsView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmergencyContactsView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/EmergencyContactsView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Safety/IncidentSummaryView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/IncidentSummaryView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/IncidentSummaryView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/IncidentSummaryView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Safety/SafeguardingView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafeguardingView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafeguardingView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafeguardingView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Safety/SafetyDashboardView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDashboardView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDashboardView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyDashboardView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Transport/ArrivalEstimateView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ArrivalEstimateView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ArrivalEstimateView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ArrivalEstimateView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Transport/DriverInformationView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DriverInformationView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DriverInformationView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/DriverInformationView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Transport/RouteProgressView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RouteProgressView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RouteProgressView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/RouteProgressView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Transport/TransportTrackingView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportTrackingView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportTrackingView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TransportTrackingView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Transport/VehicleStatusView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatusView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatusView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/VehicleStatusView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Windows/MainWindowView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MainWindowView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MainWindowView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/MainWindowView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Windows/ParentWindowView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentWindowView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentWindowView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/ParentWindowView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Windows/SafetyWindowView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyWindowView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyWindowView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/SafetyWindowView.o"
+  },
+  "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/NurseryConnectVision/Views/Windows/TourWindowView.swift" : {
+    "index-unit-output-path" : "/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourWindowView.o",
+    "llvm-bc" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourWindowView.bc",
+    "object" : "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/build/NurseryConnectVision.build/Release-xros/NurseryConnectVision.build/Objects-normal/arm64/TourWindowView.o"
+  }
+}

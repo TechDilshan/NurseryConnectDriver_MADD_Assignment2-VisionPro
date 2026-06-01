@@ -3,64 +3,129 @@ import SwiftUI
 struct TourInfoPanel: View {
     @EnvironmentObject var nurseryTourViewModel: NurseryTourViewModel
     @EnvironmentObject var immersiveViewModel: ImmersiveViewModel
+    @Environment(\.openImmersiveSpace) private var openImmersiveSpace
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            HStack {
+        VStack(alignment: .leading, spacing: 0) {
+            // Panel header
+            panelHeader
+
+            Divider().padding(.horizontal, 20)
+
+            // Description
+            descriptionSection
+
+            Divider().padding(.horizontal, 20)
+
+            // Highlights grid
+            highlightsSection
+
+            Spacer()
+
+            // Bottom action
+            actionButton
+        }
+        .background(.regularMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 24))
+        .overlay(
+            RoundedRectangle(cornerRadius: 24)
+                .strokeBorder(nurseryTourViewModel.selectedArea.themeColor.opacity(0.25), lineWidth: 1)
+        )
+        .animation(.easeInOut(duration: 0.35), value: nurseryTourViewModel.selectedArea)
+    }
+
+    // MARK: - Header
+
+    private var panelHeader: some View {
+        HStack(spacing: 14) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 14)
+                    .fill(nurseryTourViewModel.selectedArea.themeColor.opacity(0.2))
+                    .frame(width: 48, height: 48)
                 Image(systemName: nurseryTourViewModel.selectedArea.systemImage)
-                    .font(.largeTitle)
-                    .foregroundStyle(.blue)
-
-                Spacer()
+                    .font(.system(size: 20, weight: .semibold))
+                    .foregroundStyle(nurseryTourViewModel.selectedArea.themeColor)
             }
 
-            Text(nurseryTourViewModel.selectedAreaTitle)
-                .font(.title.bold())
-
-            Text(nurseryTourViewModel.selectedAreaDescription)
-                .foregroundStyle(.secondary)
-
-            Divider()
-
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Spatial UX Purpose")
-                    .font(.headline)
-
-                Text("This area is shown as a 3D object so parents can understand the nursery environment before visiting physically.")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Childcare Value")
-                    .font(.headline)
-
-                Text("The tour improves transparency, parent confidence, and understanding of the childcare setting.")
-                    .font(.subheadline)
+            VStack(alignment: .leading, spacing: 3) {
+                Text(nurseryTourViewModel.selectedArea.title)
+                    .font(.title3.bold())
+                Text("Area Details")
+                    .font(.caption)
                     .foregroundStyle(.secondary)
             }
 
             Spacer()
+        }
+        .padding(20)
+    }
 
-            HStack {
-                Button {
-                    nurseryTourViewModel.previousArea()
-                    immersiveViewModel.previousArea()
-                } label: {
-                    Label("Previous", systemImage: "chevron.left")
-                }
+    // MARK: - Description
 
-                Button {
-                    nurseryTourViewModel.nextArea()
-                    immersiveViewModel.nextArea()
-                } label: {
-                    Label("Next", systemImage: "chevron.right")
+    private var descriptionSection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Label("About this space", systemImage: "info.circle.fill")
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(nurseryTourViewModel.selectedArea.themeColor)
+
+            Text(nurseryTourViewModel.selectedArea.description)
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+                .lineSpacing(3)
+        }
+        .padding(.horizontal, 20)
+        .padding(.vertical, 16)
+    }
+
+    // MARK: - Highlights
+
+    private var highlightsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Key Features", systemImage: "checkmark.seal.fill")
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(nurseryTourViewModel.selectedArea.themeColor)
+
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 8) {
+                ForEach(nurseryTourViewModel.selectedArea.highlights, id: \.self) { highlight in
+                    HStack(spacing: 6) {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.caption)
+                            .foregroundStyle(nurseryTourViewModel.selectedArea.themeColor)
+                        Text(highlight)
+                            .font(.caption)
+                            .lineLimit(2)
+                        Spacer(minLength: 0)
+                    }
+                    .padding(8)
+                    .background(nurseryTourViewModel.selectedArea.themeColor.opacity(0.08))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
             }
-            .buttonStyle(.borderedProminent)
         }
-        .padding(24)
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 28))
+        .padding(.horizontal, 20)
+        .padding(.vertical, 16)
+    }
+
+    // MARK: - Action button
+
+    private var actionButton: some View {
+        Button {
+            immersiveViewModel.selectArea(nurseryTourViewModel.selectedArea)
+            Task { await openImmersiveSpace(id: AppConstants.immersiveSpaceID) }
+        } label: {
+            HStack {
+                Image(systemName: "arrow.right.circle.fill")
+                Text("View in Immersive Mode")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .foregroundStyle(.white)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 14)
+            .background(nurseryTourViewModel.selectedArea.themeColor)
+            .clipShape(RoundedRectangle(cornerRadius: 14))
+        }
+        .buttonStyle(.plain)
+        .padding(20)
     }
 }

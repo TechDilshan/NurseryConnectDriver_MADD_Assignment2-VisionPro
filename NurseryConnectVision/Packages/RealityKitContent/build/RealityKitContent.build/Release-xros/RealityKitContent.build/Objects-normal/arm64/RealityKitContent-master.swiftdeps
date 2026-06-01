@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "063c325e3b962c197976699b94948f36e98ab731618fed9fc8e8a2b043ebbde8"
+build_start_time: [1780301408, 664712000]
+build_end_time: [1780301410, 854689000]
+inputs:
+  ? "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/Packages/RealityKitContent/Sources/RealityKitContent/RealityKitContent.swift"
+  : [1780031108, 62289995]
+  ? "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/Packages/RealityKitContent/build/RealityKitContent.build/Release-xros/RealityKitContent.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1780301407, 113311000]

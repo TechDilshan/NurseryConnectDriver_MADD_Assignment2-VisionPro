@@ -54,6 +54,7 @@ struct NurseryConnectVisionApp: App {
 
             NurseryTourView()
                 .environmentObject(nurseryTourViewModel)
+                .environmentObject(immersiveViewModel)
         }
 
         ImmersiveSpace(

@@ -27,23 +27,6 @@ enum NurseryArea: String, CaseIterable, Codable, Identifiable, Hashable {
         }
     }
 
-    var description: String {
-        switch self {
-        case .classroom:
-            return "Learning area for guided activities, early literacy, numeracy, and group work."
-        case .playArea:
-            return "Interactive play space designed to support social development and physical movement."
-        case .diningArea:
-            return "Meal space where children receive age-appropriate food and allergen-aware supervision."
-        case .outdoorGarden:
-            return "Outdoor area for supervised free play, movement, and nature-based activities."
-        case .readingCorner:
-            return "Quiet literacy corner for storytelling, books, and calm individual activities."
-        case .safetyDesk:
-            return "Safeguarding information area with emergency contacts and safety notices."
-        }
-    }
-
     var systemImage: String {
         switch self {
         case .classroom:
@@ -55,7 +38,7 @@ enum NurseryArea: String, CaseIterable, Codable, Identifiable, Hashable {
         case .outdoorGarden:
             return "leaf.fill"
         case .readingCorner:
-            return "book.fill"
+            return "books.vertical.fill"
         case .safetyDesk:
             return "shield.lefthalf.filled"
         }

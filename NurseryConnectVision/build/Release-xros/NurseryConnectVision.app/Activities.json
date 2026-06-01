@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Story Time",
+    "description": "Listening to stories and answering simple questions.",
+    "area": "readingCorner",
+    "eyfsArea": "Communication and Language"
+  },
+  {
+    "id": "2",
+    "title": "Outdoor Play",
+    "description": "Running, climbing, and cooperative games.",
+    "area": "outdoorGarden",
+    "eyfsArea": "Physical Development"
+  },
+  {
+    "id": "3",
+    "title": "Creative Painting",
+    "description": "Exploring colours and shapes through painting.",
+    "area": "classroom",
+    "eyfsArea": "Expressive Arts and Design"
+  },
+  {
+    "id": "4",
+    "title": "Music Session",
+    "description": "Singing songs and learning rhythm.",
+    "area": "playArea",
+    "eyfsArea": "Expressive Arts and Design"
+  },
+  {
+    "id": "5",
+    "title": "Number Fun",
+    "description": "Counting objects and recognising numbers.",
+    "area": "classroom",
+    "eyfsArea": "Mathematics"
+  }
+]

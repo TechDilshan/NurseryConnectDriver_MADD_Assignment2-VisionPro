@@ -1,0 +1,11 @@
+{
+  "dependencies" : [
+
+  ],
+  "module" : {
+    "moduleName" : "RealityKitContent",
+    "swiftFiles" : [
+      "/Users/dilshan/Documents/Y4S2/MADD/Assignment 2/NurseryConnectDriver_MADD_Assignment2-VisionPro/NurseryConnectVision/Packages/RealityKitContent/Sources/RealityKitContent/RealityKitContent.swift"
+    ]
+  }
+}
