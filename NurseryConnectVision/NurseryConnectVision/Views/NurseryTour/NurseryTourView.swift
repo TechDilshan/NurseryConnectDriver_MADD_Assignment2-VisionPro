@@ -34,8 +34,6 @@ struct NurseryTourView: View {
         .animation(.easeInOut(duration: 0.4), value: nurseryTourViewModel.selectedArea)
     }
 
-    // MARK: - Background
-
     private var areaGradientBackground: some View {
         ZStack {
             LinearGradient(
@@ -49,7 +47,6 @@ struct NurseryTourView: View {
             )
             .ignoresSafeArea()
 
-            // Floating orb effect
             Circle()
                 .fill(
                     RadialGradient(
@@ -67,8 +64,6 @@ struct NurseryTourView: View {
                 .blur(radius: 40)
         }
     }
-
-    // MARK: - Header
 
     private var headerSection: some View {
         HStack(alignment: .top) {
@@ -96,36 +91,54 @@ struct NurseryTourView: View {
 
             VStack(spacing: 10) {
                 Button {
-                    immersiveViewModel.selectArea(nurseryTourViewModel.selectedArea)
-                    Task { await openImmersiveSpace(id: AppConstants.immersiveSpaceID) }
+                    Task { await startImmersiveSession() }
                 } label: {
                     HStack(spacing: 8) {
-                        Image(systemName: "visionpro")
+                        Image(systemName: "play.circle.fill")
                             .font(.body.weight(.semibold))
-                        Text("Enter Immersive")
+                        Text("Start Immersive Mode")
                             .font(.body.weight(.semibold))
                     }
                     .padding(.horizontal, 20)
                     .padding(.vertical, 12)
                 }
                 .buttonStyle(.borderedProminent)
-                .tint(nurseryTourViewModel.selectedArea.themeColor)
+                .tint(.green)
+                .disabled(immersiveViewModel.isImmersiveSpaceOpen)
 
                 Button {
-                    Task { await dismissImmersiveSpace() }
+                    Task {
+                        await dismissImmersiveSpace()
+                        immersiveViewModel.markImmersiveSpaceClosed()
+                    }
                 } label: {
                     HStack(spacing: 6) {
-                        Image(systemName: "xmark.circle.fill")
-                        Text("Exit Space")
+                        Image(systemName: "stop.circle.fill")
+                        Text("Stop Immersive")
                     }
                     .font(.subheadline)
                 }
                 .buttonStyle(.bordered)
+                .disabled(!immersiveViewModel.isImmersiveSpaceOpen)
             }
         }
     }
 
-    // MARK: - Area Tab Bar
+    private func startImmersiveSession() async {
+        let area = nurseryTourViewModel.selectedArea
+        immersiveViewModel.prepareImmersiveStart(area: area)
+        immersiveViewModel.selectArea(area)
+        switch await openImmersiveSpace(id: AppConstants.immersiveSpaceID) {
+        case .opened:
+            immersiveViewModel.markImmersiveSpaceOpened()
+        case .userCancelled:
+            immersiveViewModel.markImmersiveOpenCancelled()
+        case .error:
+            immersiveViewModel.markImmersiveOpenFailed()
+        @unknown default:
+            immersiveViewModel.markImmersiveOpenFailed()
+        }
+    }
 
     private var areaTabBar: some View {
         HStack(spacing: 10) {
@@ -141,8 +154,6 @@ struct NurseryTourView: View {
         }
     }
 
-    // MARK: - Selected Area
-
     @ViewBuilder
     private var selectedAreaView: some View {
         switch nurseryTourViewModel.selectedArea {
@@ -156,8 +167,6 @@ struct NurseryTourView: View {
     }
 }
 
-// MARK: - Area Tab Button
-
 struct AreaTabButton: View {
     let area: NurseryArea
     let isSelected: Bool
@@ -170,19 +179,16 @@ struct AreaTabButton: View {
                     Circle()
                         .fill(isSelected ? area.themeColor : Color.clear)
                         .frame(width: 46, height: 46)
-
                     Circle()
                         .strokeBorder(
                             isSelected ? area.themeColor : Color.secondary.opacity(0.3),
                             lineWidth: 1.5
                         )
                         .frame(width: 46, height: 46)
-
                     Image(systemName: area.systemImage)
                         .font(.system(size: 18, weight: .semibold))
                         .foregroundStyle(isSelected ? .white : .secondary)
                 }
-
                 Text(area.title)
                     .font(.caption.weight(isSelected ? .semibold : .regular))
                     .foregroundStyle(isSelected ? area.themeColor : .secondary)

@@ -31,6 +31,7 @@ struct NurseryConnectVisionApp: App {
                 .environmentObject(safetyViewModel)
                 .environmentObject(immersiveViewModel)
         }
+        .defaultSize(width: 1280, height: 840)
 
         WindowGroup(
             id: AppConstants.transportWindowID
@@ -64,5 +65,6 @@ struct NurseryConnectVisionApp: App {
             NurseryImmersiveView()
                 .environmentObject(immersiveViewModel)
         }
+        .immersionStyle(selection: .constant(.full), in: .full)
     }
 }

@@ -7,42 +7,35 @@ struct TourWindowView: View {
     @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 28) {
-                header
+        VStack(alignment: .leading, spacing: 28) {
+            header
 
-                HStack(spacing: 20) {
-                    tourMetricCard(
-                        title: "Selected Area",
-                        value: nurseryTourViewModel.selectedAreaTitle,
-                        subtitle: "Current tour focus",
-                        icon: nurseryTourViewModel.selectedArea.systemImage,
-                        color: .blue
-                    )
+            immersiveControlCard
 
-                    tourMetricCard(
-                        title: "Immersive Space",
-                        value: immersiveViewModel.isImmersiveSpaceOpen ? "Open" : "Closed",
-                        subtitle: "Vision Pro spatial mode",
-                        icon: "visionpro",
-                        color: immersiveViewModel.isImmersiveSpaceOpen ? .green : .orange
-                    )
+            HStack(spacing: 20) {
+                tourMetricCard(
+                    title: "Selected Area",
+                    value: nurseryTourViewModel.selectedAreaTitle,
+                    subtitle: "Preview + immersive focus",
+                    icon: nurseryTourViewModel.selectedArea.systemImage,
+                    color: nurseryTourViewModel.selectedArea.themeColor
+                )
 
-                    tourMetricCard(
-                        title: "Tour Mode",
-                        value: "Parent View",
-                        subtitle: "Spatial nursery experience",
-                        icon: "person.2.fill",
-                        color: .purple
-                    )
-                }
-
-                nurseryAreasPanel
-
-                NurseryTourView()
+                tourMetricCard(
+                    title: "Immersive",
+                    value: immersiveViewModel.isImmersiveSpaceOpen ? "Running" : "Stopped",
+                    subtitle: "Full spatial experience",
+                    icon: "visionpro",
+                    color: immersiveViewModel.isImmersiveSpaceOpen ? .green : .orange
+                )
             }
-            .padding(32)
+
+            nurseryAreasPanel
+
+            NurseryTourView()
         }
+        .padding(32)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .background(
             LinearGradient(
                 colors: [
@@ -57,36 +50,50 @@ struct TourWindowView: View {
     }
 
     private var header: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Tour Window")
-                    .font(.largeTitle.bold())
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Tour Window")
+                .font(.largeTitle.bold())
+            Text("Preview each nursery space, then start immersive mode for the full 3D walkthrough.")
+                .font(.title3)
+                .foregroundStyle(.secondary)
+        }
+    }
 
-                Text("A spatial nursery tour where parents explore classrooms, dining, play, and safety areas.")
-                    .font(.title3)
+    private var immersiveControlCard: some View {
+        GlassCardView {
+            VStack(alignment: .leading, spacing: 16) {
+                SectionHeaderView(
+                    title: "Immersive Mode",
+                    subtitle: "Stay in spatial view until you tap Stop on the top task bar"
+                )
+
+                HStack(spacing: 14) {
+                    Button {
+                        Task { await startImmersiveSession() }
+                    } label: {
+                        Label("Start Immersive Mode", systemImage: "play.circle.fill")
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(.green)
+                    .disabled(immersiveViewModel.isImmersiveSpaceOpen)
+
+                    Button {
+                        Task {
+                            await dismissImmersiveSpace()
+                            immersiveViewModel.markImmersiveSpaceClosed()
+                        }
+                    } label: {
+                        Label("Stop Immersive", systemImage: "stop.circle.fill")
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.bordered)
+                    .disabled(!immersiveViewModel.isImmersiveSpaceOpen)
+                }
+
+                Text(immersiveViewModel.statusMessage)
+                    .font(.footnote)
                     .foregroundStyle(.secondary)
-            }
-
-            Spacer()
-
-            HStack(spacing: 12) {
-                Button {
-                    Task {
-                        await openImmersiveSpace(id: AppConstants.immersiveSpaceID)
-                    }
-                } label: {
-                    Label("Open Immersive Space", systemImage: "visionpro")
-                }
-                .buttonStyle(.borderedProminent)
-
-                Button {
-                    Task {
-                        await dismissImmersiveSpace()
-                    }
-                } label: {
-                    Label("Close", systemImage: "xmark.circle")
-                }
-                .buttonStyle(.bordered)
             }
         }
     }
@@ -96,7 +103,7 @@ struct TourWindowView: View {
             VStack(alignment: .leading, spacing: 18) {
                 SectionHeaderView(
                     title: "Nursery Areas",
-                    subtitle: "Select a space to update both the window preview and immersive view"
+                    subtitle: "Select a space for the window preview and immersive start"
                 )
 
                 HStack(spacing: 14) {
@@ -108,12 +115,11 @@ struct TourWindowView: View {
                             VStack(spacing: 10) {
                                 Image(systemName: area.systemImage)
                                     .font(.title2)
-
                                 Text(area.title)
                                     .font(.caption.bold())
                                     .multilineTextAlignment(.center)
                             }
-                            .frame(width: 120, height: 90)
+                            .frame(width: 110, height: 88)
                         }
                         .buttonStyle(.bordered)
                     }
@@ -123,6 +129,21 @@ struct TourWindowView: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
+        }
+    }
+
+    private func startImmersiveSession() async {
+        let area = nurseryTourViewModel.selectedArea
+        immersiveViewModel.prepareImmersiveStart(area: area)
+        switch await openImmersiveSpace(id: AppConstants.immersiveSpaceID) {
+        case .opened:
+            immersiveViewModel.markImmersiveSpaceOpened()
+        case .userCancelled:
+            immersiveViewModel.markImmersiveOpenCancelled()
+        case .error:
+            immersiveViewModel.markImmersiveOpenFailed()
+        @unknown default:
+            immersiveViewModel.markImmersiveOpenFailed()
         }
     }
 
@@ -137,13 +158,10 @@ struct TourWindowView: View {
             Image(systemName: icon)
                 .font(.title)
                 .foregroundStyle(color)
-
             Text(value)
                 .font(.title.bold())
-
             Text(title)
                 .font(.headline)
-
             Text(subtitle)
                 .font(.caption)
                 .foregroundStyle(.secondary)

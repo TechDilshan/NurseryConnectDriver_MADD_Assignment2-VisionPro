@@ -5,23 +5,18 @@ struct NurseryImmersiveView: View {
     @EnvironmentObject var immersiveViewModel: ImmersiveViewModel
 
     var body: some View {
-        ZStack {
-            NurseryRealityView()
-                .environmentObject(immersiveViewModel)
-
-            VStack {
-                Spacer()
-
-                ImmersiveControlsView()
+        NurseryRealityView()
+            .environmentObject(immersiveViewModel)
+            .ornament(visibility: .visible, attachmentAnchor: .scene(.top), contentAlignment: .top) {
+                ImmersiveTopNavigationBar()
                     .environmentObject(immersiveViewModel)
-                    .padding(.bottom, 40)
             }
-        }
-        .onAppear {
-            immersiveViewModel.markImmersiveSpaceOpened()
-        }
-        .onDisappear {
-            immersiveViewModel.markImmersiveSpaceClosed()
-        }
+            .persistentSystemOverlays(.hidden)
+            .onAppear {
+                immersiveViewModel.markImmersiveSpaceOpened()
+            }
+            .onDisappear {
+                immersiveViewModel.markImmersiveSpaceClosed()
+            }
     }
 }

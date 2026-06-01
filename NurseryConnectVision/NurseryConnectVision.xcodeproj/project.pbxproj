@@ -42,6 +42,9 @@
 		142496A52FCC24050046F552 /* AreaDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496A42FCC24040046F552 /* AreaDetailCard.swift */; };
 		142496A72FCC24070046F552 /* RealityPrimitiveBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496A62FCC24060046F552 /* RealityPrimitiveBuilders.swift */; };
 		142496A92FCC24090046F552 /* TourAreaScenePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496A82FCC24080046F552 /* TourAreaScenePreview.swift */; };
+		142496AF2FCC24FF0046F552 /* ImmersiveAreaScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496AE2FCC24FE0046F552 /* ImmersiveAreaScenes.swift */; };
+		142496B32FCC25030046F552 /* ImmersiveSceneBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496B22FCC25020046F552 /* ImmersiveSceneBuilders.swift */; };
+		142496B12FCC25010046F552 /* ImmersiveTopNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496B02FCC25000046F552 /* ImmersiveTopNavigationBar.swift */; };
 		1424962D2FCC11D50046F552 /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424962C2FCC11D50046F552 /* DateFormatterHelper.swift */; };
 		1424962F2FCC11E60046F552 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424962E2FCC11E60046F552 /* Extensions.swift */; };
 		142496312FCC11ED0046F552 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496302FCC11ED0046F552 /* ColorTheme.swift */; };
@@ -96,6 +99,13 @@
 		142496952FCC15640046F552 /* SampleEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496942FCC15640046F552 /* SampleEvents.json */; };
 		142496982FCC19F80046F552 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496972FCC19F80046F552 /* AppConstants.swift */; };
 		1424969A2FCC19FF0046F552 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496992FCC19FF0046F552 /* AppRouter.swift */; };
+		142496CA2FCC26160046F552 /* PrototypePurpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496C52FCC26110046F552 /* PrototypePurpose.swift */; };
+		142496CB2FCC26170046F552 /* PrototypePurposeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496C62FCC26120046F552 /* PrototypePurposeComponents.swift */; };
+		142496CC2FCC26180046F552 /* ParentRolePrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496C72FCC26130046F552 /* ParentRolePrototypeView.swift */; };
+		142496CD2FCC26190046F552 /* SpatialTourPrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496C82FCC26140046F552 /* SpatialTourPrototypeView.swift */; };
+		142496CE2FCC261A0046F552 /* TransportExtensionPrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496C92FCC26150046F552 /* TransportExtensionPrototypeView.swift */; };
+		142496D02FCC26200046F552 /* ImmersiveNurseryEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496CF2FCC261F0046F552 /* ImmersiveNurseryEnvironment.swift */; };
+		142496D22FCC26220046F552 /* NurseryAppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496D12FCC26210046F552 /* NurseryAppBackground.swift */; };
 		1424969C2FCC231C0046F552 /* SafetyDeskPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424969B2FCC231B0046F552 /* SafetyDeskPreviewView.swift */; };
 		14E0AFF82FC9560400DC10D9 /* NurseryConnectVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */; };
 		14E0AFFC2FC9560600DC10D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E0AFFB2FC9560600DC10D9 /* Assets.xcassets */; };
@@ -149,6 +159,9 @@
 		142496A42FCC24040046F552 /* AreaDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailCard.swift; sourceTree = "<group>"; };
 		142496A62FCC24060046F552 /* RealityPrimitiveBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityPrimitiveBuilders.swift; sourceTree = "<group>"; };
 		142496A82FCC24080046F552 /* TourAreaScenePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourAreaScenePreview.swift; sourceTree = "<group>"; };
+		142496AE2FCC24FE0046F552 /* ImmersiveAreaScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveAreaScenes.swift; sourceTree = "<group>"; };
+		142496B22FCC25020046F552 /* ImmersiveSceneBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveSceneBuilders.swift; sourceTree = "<group>"; };
+		142496B02FCC25000046F552 /* ImmersiveTopNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveTopNavigationBar.swift; sourceTree = "<group>"; };
 		1424962C2FCC11D50046F552 /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
 		1424962E2FCC11E60046F552 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		142496302FCC11ED0046F552 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
@@ -203,6 +216,13 @@
 		142496942FCC15640046F552 /* SampleEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleEvents.json; sourceTree = "<group>"; };
 		142496972FCC19F80046F552 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		142496992FCC19FF0046F552 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		142496C52FCC26110046F552 /* PrototypePurpose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePurpose.swift; sourceTree = "<group>"; };
+		142496C62FCC26120046F552 /* PrototypePurposeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePurposeComponents.swift; sourceTree = "<group>"; };
+		142496C72FCC26130046F552 /* ParentRolePrototypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentRolePrototypeView.swift; sourceTree = "<group>"; };
+		142496C82FCC26140046F552 /* SpatialTourPrototypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialTourPrototypeView.swift; sourceTree = "<group>"; };
+		142496C92FCC26150046F552 /* TransportExtensionPrototypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportExtensionPrototypeView.swift; sourceTree = "<group>"; };
+		142496CF2FCC261F0046F552 /* ImmersiveNurseryEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveNurseryEnvironment.swift; sourceTree = "<group>"; };
+		142496D12FCC26210046F552 /* NurseryAppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryAppBackground.swift; sourceTree = "<group>"; };
 		1424969B2FCC231B0046F552 /* SafetyDeskPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyDeskPreviewView.swift; sourceTree = "<group>"; };
 		14E0AFF02FC9560400DC10D9 /* NurseryConnectVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseryConnectVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryConnectVisionApp.swift; sourceTree = "<group>"; };
@@ -276,9 +296,21 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		142496C42FCC26100046F552 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				142496C62FCC26120046F552 /* PrototypePurposeComponents.swift */,
+				142496C72FCC26130046F552 /* ParentRolePrototypeView.swift */,
+				142496C82FCC26140046F552 /* SpatialTourPrototypeView.swift */,
+				142496C92FCC26150046F552 /* TransportExtensionPrototypeView.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		142495CC2FCC0F660046F552 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				142496C42FCC26100046F552 /* Prototype */,
 				142495DB2FCC10010046F552 /* Windows */,
 				142495DA2FCC0FF90046F552 /* Components */,
 				142495D92FCC0FF10046F552 /* Activities */,
@@ -294,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				142496122FCC11550046F552 /* NurseryImmersiveView.swift */,
+				142496B02FCC25000046F552 /* ImmersiveTopNavigationBar.swift */,
 				142496142FCC115D0046F552 /* ClassroomImmersiveView.swift */,
 				142496162FCC11640046F552 /* PlayAreaImmersiveView.swift */,
 				142496182FCC116B0046F552 /* DiningImmersiveView.swift */,
@@ -310,6 +343,9 @@
 				142496A02FCC24000046F552 /* NurseryEntities.swift */,
 				142496A62FCC24060046F552 /* RealityPrimitiveBuilders.swift */,
 				142496A82FCC24080046F552 /* TourAreaScenePreview.swift */,
+				142496AE2FCC24FE0046F552 /* ImmersiveAreaScenes.swift */,
+				142496B22FCC25020046F552 /* ImmersiveSceneBuilders.swift */,
+				142496CF2FCC261F0046F552 /* ImmersiveNurseryEnvironment.swift */,
 			);
 			path = RealityKit;
 			sourceTree = "<group>";
@@ -441,6 +477,7 @@
 			isa = PBXGroup;
 			children = (
 				1424966E2FCC14000046F552 /* GlassCardView.swift */,
+				142496D12FCC26210046F552 /* NurseryAppBackground.swift */,
 				142496A42FCC24040046F552 /* AreaDetailCard.swift */,
 				142496702FCC140A0046F552 /* FloatingInfoPanel.swift */,
 				142496722FCC14110046F552 /* SpatialButton.swift */,
@@ -468,6 +505,7 @@
 				14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */,
 				142496972FCC19F80046F552 /* AppConstants.swift */,
 				142496992FCC19FF0046F552 /* AppRouter.swift */,
+				142496C52FCC26110046F552 /* PrototypePurpose.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -654,6 +692,9 @@
 				142496A52FCC24050046F552 /* AreaDetailCard.swift in Sources */,
 				142496A72FCC24070046F552 /* RealityPrimitiveBuilders.swift in Sources */,
 				142496A92FCC24090046F552 /* TourAreaScenePreview.swift in Sources */,
+				142496AF2FCC24FF0046F552 /* ImmersiveAreaScenes.swift in Sources */,
+				142496B32FCC25030046F552 /* ImmersiveSceneBuilders.swift in Sources */,
+				142496B12FCC25010046F552 /* ImmersiveTopNavigationBar.swift in Sources */,
 				1424965B2FCC13910046F552 /* SafetyDashboardView.swift in Sources */,
 				1424967B2FCC14310046F552 /* MainWindowView.swift in Sources */,
 				1424966B2FCC13EC0046F552 /* AttendanceView.swift in Sources */,
@@ -708,6 +749,13 @@
 				142496152FCC115D0046F552 /* ClassroomImmersiveView.swift in Sources */,
 				142496192FCC116B0046F552 /* DiningImmersiveView.swift in Sources */,
 				1424969A2FCC19FF0046F552 /* AppRouter.swift in Sources */,
+				142496CA2FCC26160046F552 /* PrototypePurpose.swift in Sources */,
+				142496CB2FCC26170046F552 /* PrototypePurposeComponents.swift in Sources */,
+				142496CC2FCC26180046F552 /* ParentRolePrototypeView.swift in Sources */,
+				142496CD2FCC26190046F552 /* SpatialTourPrototypeView.swift in Sources */,
+				142496CE2FCC261A0046F552 /* TransportExtensionPrototypeView.swift in Sources */,
+				142496D02FCC26200046F552 /* ImmersiveNurseryEnvironment.swift in Sources */,
+				142496D22FCC26220046F552 /* NurseryAppBackground.swift in Sources */,
 				142495E92FCC10870046F552 /* TransportStatus.swift in Sources */,
 				142496752FCC14190046F552 /* StatusBadgeView.swift in Sources */,
 				142495FD2FCC10E30046F552 /* TransportService.swift in Sources */,

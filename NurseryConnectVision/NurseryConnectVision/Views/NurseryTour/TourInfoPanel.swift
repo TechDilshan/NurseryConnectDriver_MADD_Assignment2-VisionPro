@@ -4,6 +4,7 @@ struct TourInfoPanel: View {
     @EnvironmentObject var nurseryTourViewModel: NurseryTourViewModel
     @EnvironmentObject var immersiveViewModel: ImmersiveViewModel
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -110,22 +111,57 @@ struct TourInfoPanel: View {
     // MARK: - Action button
 
     private var actionButton: some View {
-        Button {
-            immersiveViewModel.selectArea(nurseryTourViewModel.selectedArea)
-            Task { await openImmersiveSpace(id: AppConstants.immersiveSpaceID) }
-        } label: {
-            HStack {
-                Image(systemName: "arrow.right.circle.fill")
-                Text("View in Immersive Mode")
-                    .font(.subheadline.weight(.semibold))
+        VStack(spacing: 10) {
+            Button {
+                Task { await startImmersiveSession() }
+            } label: {
+                HStack {
+                    Image(systemName: "play.circle.fill")
+                    Text("Start Immersive Mode")
+                        .font(.subheadline.weight(.semibold))
+                }
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 14)
+                .background(Color.green)
+                .clipShape(RoundedRectangle(cornerRadius: 14))
             }
-            .foregroundStyle(.white)
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 14)
-            .background(nurseryTourViewModel.selectedArea.themeColor)
-            .clipShape(RoundedRectangle(cornerRadius: 14))
+            .buttonStyle(.plain)
+            .disabled(immersiveViewModel.isImmersiveSpaceOpen)
+
+            if immersiveViewModel.isImmersiveSpaceOpen {
+                Button {
+                    Task {
+                        await dismissImmersiveSpace()
+                        immersiveViewModel.markImmersiveSpaceClosed()
+                    }
+                } label: {
+                    HStack {
+                        Image(systemName: "stop.circle.fill")
+                        Text("Stop Immersive")
+                            .font(.subheadline.weight(.semibold))
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 12)
+                }
+                .buttonStyle(.bordered)
+            }
         }
-        .buttonStyle(.plain)
         .padding(20)
+    }
+
+    private func startImmersiveSession() async {
+        let area = nurseryTourViewModel.selectedArea
+        immersiveViewModel.prepareImmersiveStart(area: area)
+        switch await openImmersiveSpace(id: AppConstants.immersiveSpaceID) {
+        case .opened:
+            immersiveViewModel.markImmersiveSpaceOpened()
+        case .userCancelled:
+            immersiveViewModel.markImmersiveOpenCancelled()
+        case .error:
+            immersiveViewModel.markImmersiveOpenFailed()
+        @unknown default:
+            immersiveViewModel.markImmersiveOpenFailed()
+        }
     }
 }

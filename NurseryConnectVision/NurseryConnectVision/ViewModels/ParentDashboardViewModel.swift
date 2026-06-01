@@ -8,6 +8,7 @@ final class ParentDashboardViewModel: ObservableObject {
     @Published var selectedChild: Child?
     @Published var events: [NurseryEvent]
     @Published var selectedRoute: AppRoute = .dashboard
+    @Published var selectedPrototypePurpose: PrototypePurpose?
 
     private let service: ParentDashboardServiceProtocol
 
@@ -53,6 +54,26 @@ final class ParentDashboardViewModel: ObservableObject {
     func selectChild(_ child: Child) {
         withAnimation(.easeInOut) {
             selectedChild = child
+        }
+    }
+
+    func selectRoute(_ route: AppRoute) {
+        withAnimation(.easeInOut) {
+            selectedPrototypePurpose = nil
+            selectedRoute = route
+        }
+    }
+
+    func selectPrototypePurpose(_ purpose: PrototypePurpose) {
+        withAnimation(.easeInOut) {
+            selectedPrototypePurpose = purpose
+        }
+    }
+
+    func openLinkedFeature(for purpose: PrototypePurpose) {
+        withAnimation(.easeInOut) {
+            selectedPrototypePurpose = nil
+            selectedRoute = purpose.linkedRoute
         }
     }
 

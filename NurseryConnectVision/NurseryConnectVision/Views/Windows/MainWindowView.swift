@@ -2,6 +2,9 @@ import SwiftUI
 
 struct MainWindowView: View {
     @EnvironmentObject var parentDashboardViewModel: ParentDashboardViewModel
+    @EnvironmentObject var nurseryTourViewModel: NurseryTourViewModel
+    @EnvironmentObject var immersiveViewModel: ImmersiveViewModel
+    @EnvironmentObject var transportViewModel: TransportViewModel
 
     var body: some View {
         NavigationSplitView {
@@ -17,17 +20,32 @@ struct MainWindowView: View {
             Section("NurseryConnect Vision") {
                 ForEach(AppRoute.allCases, id: \.self) { route in
                     Button {
-                        parentDashboardViewModel.selectedRoute = route
+                        parentDashboardViewModel.selectRoute(route)
                     } label: {
                         Label(route.title, systemImage: icon(for: route))
                     }
+                    .listRowBackground(
+                        parentDashboardViewModel.selectedPrototypePurpose == nil
+                            && parentDashboardViewModel.selectedRoute == route
+                            ? Color.accentColor.opacity(0.15)
+                            : nil
+                    )
                 }
             }
 
             Section("Prototype Purpose") {
-                Label("Parent Role", systemImage: "person.2.fill")
-                Label("Spatial Tour", systemImage: "visionpro")
-                Label("Transport Extension", systemImage: "bus.fill")
+                ForEach(PrototypePurpose.allCases) { purpose in
+                    Button {
+                        parentDashboardViewModel.selectPrototypePurpose(purpose)
+                    } label: {
+                        Label(purpose.title, systemImage: purpose.systemImage)
+                    }
+                    .listRowBackground(
+                        parentDashboardViewModel.selectedPrototypePurpose == purpose
+                            ? Color.accentColor.opacity(0.15)
+                            : nil
+                    )
+                }
             }
         }
         .navigationTitle("Vision Menu")
@@ -36,31 +54,47 @@ struct MainWindowView: View {
 
     @ViewBuilder
     private var selectedView: some View {
-        switch parentDashboardViewModel.selectedRoute {
-        case .dashboard:
-            ParentWindowView()
+        if let purpose = parentDashboardViewModel.selectedPrototypePurpose {
+            prototypeView(for: purpose)
+        } else {
+            switch parentDashboardViewModel.selectedRoute {
+            case .dashboard:
+                ParentWindowView()
+            case .nurseryTour:
+                TourWindowView()
+            case .transport:
+                TransportTrackingView()
+            case .safety:
+                SafetyWindowView()
+            }
+        }
+    }
 
-        case .nurseryTour:
-            TourWindowView()
-
-        case .transport:
-            TransportTrackingView()
-
-        case .safety:
-            SafetyWindowView()
+    @ViewBuilder
+    private func prototypeView(for purpose: PrototypePurpose) -> some View {
+        switch purpose {
+        case .parentRole:
+            ParentRolePrototypeView()
+                .environmentObject(parentDashboardViewModel)
+                .environmentObject(transportViewModel)
+        case .spatialTour:
+            SpatialTourPrototypeView()
+                .environmentObject(parentDashboardViewModel)
+                .environmentObject(nurseryTourViewModel)
+                .environmentObject(immersiveViewModel)
+        case .transportExtension:
+            TransportExtensionPrototypeView()
+                .environmentObject(parentDashboardViewModel)
+                .environmentObject(transportViewModel)
         }
     }
 
     private func icon(for route: AppRoute) -> String {
         switch route {
-        case .dashboard:
-            return "rectangle.grid.2x2.fill"
-        case .nurseryTour:
-            return "cube.transparent.fill"
-        case .transport:
-            return "bus.fill"
-        case .safety:
-            return "shield.lefthalf.filled"
+        case .dashboard: return "rectangle.grid.2x2.fill"
+        case .nurseryTour: return "cube.transparent.fill"
+        case .transport: return "bus.fill"
+        case .safety: return "shield.lefthalf.filled"
         }
     }
 }
