@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "fullName": "Emma Johnson",
+    "preferredName": "Emma",
+    "age": 4,
+    "roomName": "Blue Room",
+    "keyworkerName": "Ms. Harper",
+    "transportStatus": "inTransit"
+  },
+  {
+    "id": "2",
+    "fullName": "Liam Smith",
+    "preferredName": "Liam",
+    "age": 5,
+    "roomName": "Green Room",
+    "keyworkerName": "Mr. Lewis",
+    "transportStatus": "arrivedAtNursery"
+  },
+  {
+    "id": "3",
+    "fullName": "Olivia Brown",
+    "preferredName": "Olivia",
+    "age": 3,
+    "roomName": "Yellow Room",
+    "keyworkerName": "Ms. Carter",
+    "transportStatus": "waitingForPickup"
+  }
+]

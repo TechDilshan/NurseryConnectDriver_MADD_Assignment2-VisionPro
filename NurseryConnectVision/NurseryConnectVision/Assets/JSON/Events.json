@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Parent Open Morning",
+    "description": "Parents can visit classrooms and meet staff.",
+    "area": "classroom"
+  },
+  {
+    "id": "2",
+    "title": "Outdoor Discovery Day",
+    "description": "Nature exploration activities in the garden.",
+    "area": "outdoorGarden"
+  },
+  {
+    "id": "3",
+    "title": "Healthy Eating Week",
+    "description": "Learning about healthy food choices.",
+    "area": "diningArea"
+  },
+  {
+    "id": "4",
+    "title": "Reading Celebration",
+    "description": "Storytelling and literacy-focused activities.",
+    "area": "readingCorner"
+  },
+  {
+    "id": "5",
+    "title": "Safety Awareness Session",
+    "description": "Teaching children basic nursery safety practices.",
+    "area": "safetyDesk"
+  }
+]

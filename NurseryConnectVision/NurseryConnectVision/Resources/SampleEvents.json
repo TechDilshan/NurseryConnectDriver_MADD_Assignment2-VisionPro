@@ -1,0 +1,23 @@
+[
+  {
+    "id": "DD444444-DDDD-DDDD-DDDD-DDDDDDDDDDDD",
+    "title": "Parent Open Morning",
+    "description": "A guided parent visit through classroom, play, dining, and safety areas.",
+    "eventDate": "2026-06-03T09:00:00Z",
+    "area": "classroom"
+  },
+  {
+    "id": "EE555555-EEEE-EEEE-EEEE-EEEEEEEEEEEE",
+    "title": "Garden Play Session",
+    "description": "Outdoor activity session focused on movement, teamwork, and supervised play.",
+    "eventDate": "2026-06-04T10:30:00Z",
+    "area": "outdoorGarden"
+  },
+  {
+    "id": "FF666666-FFFF-FFFF-FFFF-FFFFFFFFFFFF",
+    "title": "Healthy Lunch Day",
+    "description": "A parent information day about nursery meals, food routines, and allergy safety.",
+    "eventDate": "2026-06-05T12:00:00Z",
+    "area": "diningArea"
+  }
+]

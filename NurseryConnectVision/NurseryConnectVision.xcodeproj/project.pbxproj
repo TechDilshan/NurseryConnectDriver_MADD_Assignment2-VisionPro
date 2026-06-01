@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142495E52FCC10690046F552 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495E42FCC10690046F552 /* Child.swift */; };
+		142495E72FCC10790046F552 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495E62FCC10790046F552 /* Parent.swift */; };
+		142495E92FCC10870046F552 /* TransportStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495E82FCC10870046F552 /* TransportStatus.swift */; };
+		142495EB2FCC10910046F552 /* VehicleStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495EA2FCC10910046F552 /* VehicleStatus.swift */; };
+		142495ED2FCC10990046F552 /* NurseryArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495EC2FCC10990046F552 /* NurseryArea.swift */; };
+		142495EF2FCC10A00046F552 /* SafetyNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495EE2FCC10A00046F552 /* SafetyNotice.swift */; };
+		142495F12FCC10A80046F552 /* DailyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495F02FCC10A80046F552 /* DailyActivity.swift */; };
+		142495F32FCC10B20046F552 /* ChildAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495F22FCC10B20046F552 /* ChildAttendance.swift */; };
+		142495F52FCC10BD0046F552 /* ChildMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495F42FCC10BD0046F552 /* ChildMeal.swift */; };
+		142495F72FCC10C40046F552 /* NurseryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495F62FCC10C40046F552 /* NurseryEvent.swift */; };
+		142495F92FCC10CD0046F552 /* TourLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495F82FCC10CD0046F552 /* TourLocation.swift */; };
+		142495FB2FCC10DB0046F552 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495FA2FCC10DB0046F552 /* MockDataService.swift */; };
+		142495FD2FCC10E30046F552 /* TransportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495FC2FCC10E30046F552 /* TransportService.swift */; };
+		142495FF2FCC10EC0046F552 /* ParentDashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142495FE2FCC10EC0046F552 /* ParentDashboardService.swift */; };
+		142496012FCC10FA0046F552 /* SafetyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496002FCC10FA0046F552 /* SafetyService.swift */; };
+		142496032FCC11030046F552 /* TourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496022FCC11030046F552 /* TourService.swift */; };
+		142496052FCC110B0046F552 /* AssetLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496042FCC110B0046F552 /* AssetLoaderService.swift */; };
+		142496072FCC11150046F552 /* ParentDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496062FCC11150046F552 /* ParentDashboardViewModel.swift */; };
+		142496092FCC111D0046F552 /* TransportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496082FCC111D0046F552 /* TransportViewModel.swift */; };
+		1424960B2FCC11250046F552 /* NurseryTourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424960A2FCC11250046F552 /* NurseryTourViewModel.swift */; };
+		1424960D2FCC112D0046F552 /* SafetyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424960C2FCC112D0046F552 /* SafetyViewModel.swift */; };
+		1424960F2FCC11350046F552 /* ChildActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424960E2FCC11350046F552 /* ChildActivityViewModel.swift */; };
+		142496112FCC113E0046F552 /* ImmersiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496102FCC113E0046F552 /* ImmersiveViewModel.swift */; };
+		142496132FCC11550046F552 /* NurseryImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496122FCC11550046F552 /* NurseryImmersiveView.swift */; };
+		142496152FCC115D0046F552 /* ClassroomImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496142FCC115D0046F552 /* ClassroomImmersiveView.swift */; };
+		142496172FCC11640046F552 /* PlayAreaImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496162FCC11640046F552 /* PlayAreaImmersiveView.swift */; };
+		142496192FCC116B0046F552 /* DiningImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496182FCC116B0046F552 /* DiningImmersiveView.swift */; };
+		1424961B2FCC11720046F552 /* GardenImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424961A2FCC11720046F552 /* GardenImmersiveView.swift */; };
+		1424961D2FCC117A0046F552 /* ImmersiveControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424961C2FCC117A0046F552 /* ImmersiveControlsView.swift */; };
+		1424961F2FCC11810046F552 /* NurseryRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424961E2FCC11810046F552 /* NurseryRealityView.swift */; };
+		142496212FCC11930046F552 /* NurseryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496202FCC11930046F552 /* NurseryEntity.swift */; };
+		142496232FCC119A0046F552 /* ClassroomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496222FCC119A0046F552 /* ClassroomEntity.swift */; };
+		142496252FCC11A10046F552 /* PlaygroundEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496242FCC11A10046F552 /* PlaygroundEntity.swift */; };
+		142496272FCC11A80046F552 /* DiningEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496262FCC11A80046F552 /* DiningEntity.swift */; };
+		142496292FCC11AF0046F552 /* GardenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496282FCC11AF0046F552 /* GardenEntity.swift */; };
+		1424962B2FCC11B60046F552 /* ChildAvatarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424962A2FCC11B60046F552 /* ChildAvatarEntity.swift */; };
+		1424962D2FCC11D50046F552 /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424962C2FCC11D50046F552 /* DateFormatterHelper.swift */; };
+		1424962F2FCC11E60046F552 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424962E2FCC11E60046F552 /* Extensions.swift */; };
+		142496312FCC11ED0046F552 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496302FCC11ED0046F552 /* ColorTheme.swift */; };
+		142496332FCC11FD0046F552 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496322FCC11FD0046F552 /* Constants.swift */; };
+		142496352FCC12050046F552 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496342FCC12050046F552 /* PreviewData.swift */; };
+		142496372FCC12C60046F552 /* ParentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496362FCC12C60046F552 /* ParentDashboardView.swift */; };
+		142496392FCC12D10046F552 /* ChildStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496382FCC12D10046F552 /* ChildStatusCard.swift */; };
+		1424963B2FCC12DB0046F552 /* TransportCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424963A2FCC12DB0046F552 /* TransportCard.swift */; };
+		1424963D2FCC12E50046F552 /* AttendanceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424963C2FCC12E50046F552 /* AttendanceCard.swift */; };
+		1424963F2FCC12ED0046F552 /* MealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424963E2FCC12ED0046F552 /* MealCard.swift */; };
+		142496412FCC12F50046F552 /* DailySummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496402FCC12F50046F552 /* DailySummaryCard.swift */; };
+		142496432FCC131A0046F552 /* NurseryTourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496422FCC131A0046F552 /* NurseryTourView.swift */; };
+		142496452FCC13240046F552 /* ClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496442FCC13240046F552 /* ClassroomView.swift */; };
+		142496472FCC132D0046F552 /* PlayAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496462FCC132D0046F552 /* PlayAreaView.swift */; };
+		142496492FCC13360046F552 /* DiningAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496482FCC13360046F552 /* DiningAreaView.swift */; };
+		1424964B2FCC13400046F552 /* OutdoorAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424964A2FCC13400046F552 /* OutdoorAreaView.swift */; };
+		1424964D2FCC134A0046F552 /* ReadingCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424964C2FCC134A0046F552 /* ReadingCornerView.swift */; };
+		1424964F2FCC13530046F552 /* TourInfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424964E2FCC13530046F552 /* TourInfoPanel.swift */; };
+		142496512FCC13600046F552 /* TransportTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496502FCC13600046F552 /* TransportTrackingView.swift */; };
+		142496532FCC13690046F552 /* VehicleStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496522FCC13690046F552 /* VehicleStatusView.swift */; };
+		142496552FCC13700046F552 /* DriverInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496542FCC13700046F552 /* DriverInformationView.swift */; };
+		142496572FCC13780046F552 /* RouteProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496562FCC13780046F552 /* RouteProgressView.swift */; };
+		142496592FCC13830046F552 /* ArrivalEstimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496582FCC13830046F552 /* ArrivalEstimateView.swift */; };
+		1424965B2FCC13910046F552 /* SafetyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424965A2FCC13910046F552 /* SafetyDashboardView.swift */; };
+		1424965D2FCC139F0046F552 /* EmergencyContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424965C2FCC139F0046F552 /* EmergencyContactsView.swift */; };
+		1424965F2FCC13A70046F552 /* IncidentSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424965E2FCC13A70046F552 /* IncidentSummaryView.swift */; };
+		142496612FCC13B00046F552 /* SafeguardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496602FCC13B00046F552 /* SafeguardingView.swift */; };
+		142496632FCC13B70046F552 /* ComplianceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496622FCC13B70046F552 /* ComplianceView.swift */; };
+		142496652FCC13C30046F552 /* ChildActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496642FCC13C30046F552 /* ChildActivitiesView.swift */; };
+		142496672FCC13DC0046F552 /* ActivityTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496662FCC13DC0046F552 /* ActivityTimelineView.swift */; };
+		142496692FCC13E40046F552 /* MealScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496682FCC13E40046F552 /* MealScheduleView.swift */; };
+		1424966B2FCC13EC0046F552 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424966A2FCC13EC0046F552 /* AttendanceView.swift */; };
+		1424966D2FCC13F40046F552 /* EventCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424966C2FCC13F40046F552 /* EventCalendarView.swift */; };
+		1424966F2FCC14000046F552 /* GlassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424966E2FCC14000046F552 /* GlassCardView.swift */; };
+		142496712FCC140A0046F552 /* FloatingInfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496702FCC140A0046F552 /* FloatingInfoPanel.swift */; };
+		142496732FCC14110046F552 /* SpatialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496722FCC14110046F552 /* SpatialButton.swift */; };
+		142496752FCC14190046F552 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496742FCC14190046F552 /* StatusBadgeView.swift */; };
+		142496772FCC14210046F552 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496762FCC14210046F552 /* SectionHeaderView.swift */; };
+		142496792FCC14280046F552 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496782FCC14280046F552 /* EmptyStateView.swift */; };
+		1424967B2FCC14310046F552 /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424967A2FCC14310046F552 /* MainWindowView.swift */; };
+		1424967D2FCC14390046F552 /* ParentWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424967C2FCC14390046F552 /* ParentWindowView.swift */; };
+		1424967F2FCC14410046F552 /* SafetyWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424967E2FCC14410046F552 /* SafetyWindowView.swift */; };
+		142496812FCC14490046F552 /* TourWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496802FCC14490046F552 /* TourWindowView.swift */; };
+		142496852FCC15150046F552 /* Children.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496842FCC15150046F552 /* Children.json */; };
+		142496872FCC15220046F552 /* Activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496862FCC15220046F552 /* Activities.json */; };
+		142496892FCC15290046F552 /* Meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496882FCC15290046F552 /* Meals.json */; };
+		1424968B2FCC15320046F552 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 1424968A2FCC15320046F552 /* Events.json */; };
+		1424968D2FCC153C0046F552 /* SampleChildren.json in Resources */ = {isa = PBXBuildFile; fileRef = 1424968C2FCC153C0046F552 /* SampleChildren.json */; };
+		1424968F2FCC15440046F552 /* SampleAttendance.json in Resources */ = {isa = PBXBuildFile; fileRef = 1424968E2FCC15440046F552 /* SampleAttendance.json */; };
+		142496912FCC154D0046F552 /* SampleMeals.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496902FCC154D0046F552 /* SampleMeals.json */; };
+		142496932FCC155C0046F552 /* SampleActivities.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496922FCC155C0046F552 /* SampleActivities.json */; };
+		142496952FCC15640046F552 /* SampleEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 142496942FCC15640046F552 /* SampleEvents.json */; };
+		142496982FCC19F80046F552 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496972FCC19F80046F552 /* AppConstants.swift */; };
+		1424969A2FCC19FF0046F552 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142496992FCC19FF0046F552 /* AppRouter.swift */; };
+		1424969C2FCC231C0046F552 /* SafetyDeskPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424969B2FCC231B0046F552 /* SafetyDeskPreviewView.swift */; };
+		14E0AFF62FC9560400DC10D9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 14E0AFF52FC9560400DC10D9 /* RealityKitContent */; };
+		14E0AFF82FC9560400DC10D9 /* NurseryConnectVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */; };
+		14E0AFFC2FC9560600DC10D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E0AFFB2FC9560600DC10D9 /* Assets.xcassets */; };
+		14E0AFFF2FC9560600DC10D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E0AFFE2FC9560600DC10D9 /* Preview Assets.xcassets */; };
+		14E0B00A2FC9560600DC10D9 /* NurseryConnectVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0B0092FC9560600DC10D9 /* NurseryConnectVisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E0B0062FC9560600DC10D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E0AFE82FC9560300DC10D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E0AFEF2FC9560400DC10D9;
+			remoteInfo = NurseryConnectVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142495E42FCC10690046F552 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		142495E62FCC10790046F552 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		142495E82FCC10870046F552 /* TransportStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportStatus.swift; sourceTree = "<group>"; };
+		142495EA2FCC10910046F552 /* VehicleStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleStatus.swift; sourceTree = "<group>"; };
+		142495EC2FCC10990046F552 /* NurseryArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryArea.swift; sourceTree = "<group>"; };
+		142495EE2FCC10A00046F552 /* SafetyNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyNotice.swift; sourceTree = "<group>"; };
+		142495F02FCC10A80046F552 /* DailyActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyActivity.swift; sourceTree = "<group>"; };
+		142495F22FCC10B20046F552 /* ChildAttendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildAttendance.swift; sourceTree = "<group>"; };
+		142495F42FCC10BD0046F552 /* ChildMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildMeal.swift; sourceTree = "<group>"; };
+		142495F62FCC10C40046F552 /* NurseryEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryEvent.swift; sourceTree = "<group>"; };
+		142495F82FCC10CD0046F552 /* TourLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourLocation.swift; sourceTree = "<group>"; };
+		142495FA2FCC10DB0046F552 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		142495FC2FCC10E30046F552 /* TransportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportService.swift; sourceTree = "<group>"; };
+		142495FE2FCC10EC0046F552 /* ParentDashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDashboardService.swift; sourceTree = "<group>"; };
+		142496002FCC10FA0046F552 /* SafetyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyService.swift; sourceTree = "<group>"; };
+		142496022FCC11030046F552 /* TourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourService.swift; sourceTree = "<group>"; };
+		142496042FCC110B0046F552 /* AssetLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoaderService.swift; sourceTree = "<group>"; };
+		142496062FCC11150046F552 /* ParentDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDashboardViewModel.swift; sourceTree = "<group>"; };
+		142496082FCC111D0046F552 /* TransportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportViewModel.swift; sourceTree = "<group>"; };
+		1424960A2FCC11250046F552 /* NurseryTourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryTourViewModel.swift; sourceTree = "<group>"; };
+		1424960C2FCC112D0046F552 /* SafetyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyViewModel.swift; sourceTree = "<group>"; };
+		1424960E2FCC11350046F552 /* ChildActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildActivityViewModel.swift; sourceTree = "<group>"; };
+		142496102FCC113E0046F552 /* ImmersiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveViewModel.swift; sourceTree = "<group>"; };
+		142496122FCC11550046F552 /* NurseryImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryImmersiveView.swift; sourceTree = "<group>"; };
+		142496142FCC115D0046F552 /* ClassroomImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomImmersiveView.swift; sourceTree = "<group>"; };
+		142496162FCC11640046F552 /* PlayAreaImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAreaImmersiveView.swift; sourceTree = "<group>"; };
+		142496182FCC116B0046F552 /* DiningImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningImmersiveView.swift; sourceTree = "<group>"; };
+		1424961A2FCC11720046F552 /* GardenImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenImmersiveView.swift; sourceTree = "<group>"; };
+		1424961C2FCC117A0046F552 /* ImmersiveControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveControlsView.swift; sourceTree = "<group>"; };
+		1424961E2FCC11810046F552 /* NurseryRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryRealityView.swift; sourceTree = "<group>"; };
+		142496202FCC11930046F552 /* NurseryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryEntity.swift; sourceTree = "<group>"; };
+		142496222FCC119A0046F552 /* ClassroomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomEntity.swift; sourceTree = "<group>"; };
+		142496242FCC11A10046F552 /* PlaygroundEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundEntity.swift; sourceTree = "<group>"; };
+		142496262FCC11A80046F552 /* DiningEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningEntity.swift; sourceTree = "<group>"; };
+		142496282FCC11AF0046F552 /* GardenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenEntity.swift; sourceTree = "<group>"; };
+		1424962A2FCC11B60046F552 /* ChildAvatarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildAvatarEntity.swift; sourceTree = "<group>"; };
+		1424962C2FCC11D50046F552 /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
+		1424962E2FCC11E60046F552 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		142496302FCC11ED0046F552 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		142496322FCC11FD0046F552 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		142496342FCC12050046F552 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		142496362FCC12C60046F552 /* ParentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDashboardView.swift; sourceTree = "<group>"; };
+		142496382FCC12D10046F552 /* ChildStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildStatusCard.swift; sourceTree = "<group>"; };
+		1424963A2FCC12DB0046F552 /* TransportCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportCard.swift; sourceTree = "<group>"; };
+		1424963C2FCC12E50046F552 /* AttendanceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceCard.swift; sourceTree = "<group>"; };
+		1424963E2FCC12ED0046F552 /* MealCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCard.swift; sourceTree = "<group>"; };
+		142496402FCC12F50046F552 /* DailySummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySummaryCard.swift; sourceTree = "<group>"; };
+		142496422FCC131A0046F552 /* NurseryTourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryTourView.swift; sourceTree = "<group>"; };
+		142496442FCC13240046F552 /* ClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomView.swift; sourceTree = "<group>"; };
+		142496462FCC132D0046F552 /* PlayAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAreaView.swift; sourceTree = "<group>"; };
+		142496482FCC13360046F552 /* DiningAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningAreaView.swift; sourceTree = "<group>"; };
+		1424964A2FCC13400046F552 /* OutdoorAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorAreaView.swift; sourceTree = "<group>"; };
+		1424964C2FCC134A0046F552 /* ReadingCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingCornerView.swift; sourceTree = "<group>"; };
+		1424964E2FCC13530046F552 /* TourInfoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoPanel.swift; sourceTree = "<group>"; };
+		142496502FCC13600046F552 /* TransportTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportTrackingView.swift; sourceTree = "<group>"; };
+		142496522FCC13690046F552 /* VehicleStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleStatusView.swift; sourceTree = "<group>"; };
+		142496542FCC13700046F552 /* DriverInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverInformationView.swift; sourceTree = "<group>"; };
+		142496562FCC13780046F552 /* RouteProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteProgressView.swift; sourceTree = "<group>"; };
+		142496582FCC13830046F552 /* ArrivalEstimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalEstimateView.swift; sourceTree = "<group>"; };
+		1424965A2FCC13910046F552 /* SafetyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyDashboardView.swift; sourceTree = "<group>"; };
+		1424965C2FCC139F0046F552 /* EmergencyContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsView.swift; sourceTree = "<group>"; };
+		1424965E2FCC13A70046F552 /* IncidentSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentSummaryView.swift; sourceTree = "<group>"; };
+		142496602FCC13B00046F552 /* SafeguardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeguardingView.swift; sourceTree = "<group>"; };
+		142496622FCC13B70046F552 /* ComplianceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplianceView.swift; sourceTree = "<group>"; };
+		142496642FCC13C30046F552 /* ChildActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildActivitiesView.swift; sourceTree = "<group>"; };
+		142496662FCC13DC0046F552 /* ActivityTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTimelineView.swift; sourceTree = "<group>"; };
+		142496682FCC13E40046F552 /* MealScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealScheduleView.swift; sourceTree = "<group>"; };
+		1424966A2FCC13EC0046F552 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		1424966C2FCC13F40046F552 /* EventCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarView.swift; sourceTree = "<group>"; };
+		1424966E2FCC14000046F552 /* GlassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCardView.swift; sourceTree = "<group>"; };
+		142496702FCC140A0046F552 /* FloatingInfoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingInfoPanel.swift; sourceTree = "<group>"; };
+		142496722FCC14110046F552 /* SpatialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialButton.swift; sourceTree = "<group>"; };
+		142496742FCC14190046F552 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		142496762FCC14210046F552 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		142496782FCC14280046F552 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		1424967A2FCC14310046F552 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		1424967C2FCC14390046F552 /* ParentWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentWindowView.swift; sourceTree = "<group>"; };
+		1424967E2FCC14410046F552 /* SafetyWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyWindowView.swift; sourceTree = "<group>"; };
+		142496802FCC14490046F552 /* TourWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourWindowView.swift; sourceTree = "<group>"; };
+		142496842FCC15150046F552 /* Children.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Children.json; sourceTree = "<group>"; };
+		142496862FCC15220046F552 /* Activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Activities.json; sourceTree = "<group>"; };
+		142496882FCC15290046F552 /* Meals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Meals.json; sourceTree = "<group>"; };
+		1424968A2FCC15320046F552 /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		1424968C2FCC153C0046F552 /* SampleChildren.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleChildren.json; sourceTree = "<group>"; };
+		1424968E2FCC15440046F552 /* SampleAttendance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleAttendance.json; sourceTree = "<group>"; };
+		142496902FCC154D0046F552 /* SampleMeals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleMeals.json; sourceTree = "<group>"; };
+		142496922FCC155C0046F552 /* SampleActivities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleActivities.json; sourceTree = "<group>"; };
+		142496942FCC15640046F552 /* SampleEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleEvents.json; sourceTree = "<group>"; };
+		142496972FCC19F80046F552 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		142496992FCC19FF0046F552 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		1424969B2FCC231B0046F552 /* SafetyDeskPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyDeskPreviewView.swift; sourceTree = "<group>"; };
+		14E0AFF02FC9560400DC10D9 /* NurseryConnectVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseryConnectVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E0AFF42FC9560400DC10D9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryConnectVisionApp.swift; sourceTree = "<group>"; };
+		14E0AFFB2FC9560600DC10D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E0AFFE2FC9560600DC10D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14E0B0002FC9560600DC10D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E0B0052FC9560600DC10D9 /* NurseryConnectVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseryConnectVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E0B0092FC9560600DC10D9 /* NurseryConnectVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurseryConnectVisionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E0AFED2FC9560400DC10D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E0AFF62FC9560400DC10D9 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E0B0022FC9560600DC10D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142495C92FCC0F330046F552 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				142495E42FCC10690046F552 /* Child.swift */,
+				142495E62FCC10790046F552 /* Parent.swift */,
+				142495E82FCC10870046F552 /* TransportStatus.swift */,
+				142495EA2FCC10910046F552 /* VehicleStatus.swift */,
+				142495EC2FCC10990046F552 /* NurseryArea.swift */,
+				142495EE2FCC10A00046F552 /* SafetyNotice.swift */,
+				142495F02FCC10A80046F552 /* DailyActivity.swift */,
+				142495F22FCC10B20046F552 /* ChildAttendance.swift */,
+				142495F42FCC10BD0046F552 /* ChildMeal.swift */,
+				142495F62FCC10C40046F552 /* NurseryEvent.swift */,
+				142495F82FCC10CD0046F552 /* TourLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		142495CA2FCC0F3D0046F552 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				142495FA2FCC10DB0046F552 /* MockDataService.swift */,
+				142495FC2FCC10E30046F552 /* TransportService.swift */,
+				142495FE2FCC10EC0046F552 /* ParentDashboardService.swift */,
+				142496002FCC10FA0046F552 /* SafetyService.swift */,
+				142496022FCC11030046F552 /* TourService.swift */,
+				142496042FCC110B0046F552 /* AssetLoaderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		142495CB2FCC0F450046F552 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				142496062FCC11150046F552 /* ParentDashboardViewModel.swift */,
+				142496082FCC111D0046F552 /* TransportViewModel.swift */,
+				1424960A2FCC11250046F552 /* NurseryTourViewModel.swift */,
+				1424960C2FCC112D0046F552 /* SafetyViewModel.swift */,
+				1424960E2FCC11350046F552 /* ChildActivityViewModel.swift */,
+				142496102FCC113E0046F552 /* ImmersiveViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		142495CC2FCC0F660046F552 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				142495DB2FCC10010046F552 /* Windows */,
+				142495DA2FCC0FF90046F552 /* Components */,
+				142495D92FCC0FF10046F552 /* Activities */,
+				142495D82FCC0FE70046F552 /* Safety */,
+				142495D72FCC0FDF0046F552 /* Transport */,
+				142495D62FCC0FD70046F552 /* NurseryTour */,
+				142495D52FCC0FCF0046F552 /* Dashboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		142495CD2FCC0F710046F552 /* ImmersiveSpace */ = {
+			isa = PBXGroup;
+			children = (
+				142496122FCC11550046F552 /* NurseryImmersiveView.swift */,
+				142496142FCC115D0046F552 /* ClassroomImmersiveView.swift */,
+				142496162FCC11640046F552 /* PlayAreaImmersiveView.swift */,
+				142496182FCC116B0046F552 /* DiningImmersiveView.swift */,
+				1424961A2FCC11720046F552 /* GardenImmersiveView.swift */,
+				1424961C2FCC117A0046F552 /* ImmersiveControlsView.swift */,
+				1424961E2FCC11810046F552 /* NurseryRealityView.swift */,
+			);
+			path = ImmersiveSpace;
+			sourceTree = "<group>";
+		};
+		142495CE2FCC0F7F0046F552 /* RealityKit */ = {
+			isa = PBXGroup;
+			children = (
+				142496202FCC11930046F552 /* NurseryEntity.swift */,
+				142496222FCC119A0046F552 /* ClassroomEntity.swift */,
+				142496242FCC11A10046F552 /* PlaygroundEntity.swift */,
+				142496262FCC11A80046F552 /* DiningEntity.swift */,
+				142496282FCC11AF0046F552 /* GardenEntity.swift */,
+				1424962A2FCC11B60046F552 /* ChildAvatarEntity.swift */,
+			);
+			path = RealityKit;
+			sourceTree = "<group>";
+		};
+		142495CF2FCC0F890046F552 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				142495D42FCC0FBF0046F552 /* JSON */,
+				142495D32FCC0FB30046F552 /* Images */,
+				142495D22FCC0FAB0046F552 /* Models */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		142495D02FCC0F930046F552 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1424968C2FCC153C0046F552 /* SampleChildren.json */,
+				1424968E2FCC15440046F552 /* SampleAttendance.json */,
+				142496902FCC154D0046F552 /* SampleMeals.json */,
+				142496922FCC155C0046F552 /* SampleActivities.json */,
+				142496942FCC15640046F552 /* SampleEvents.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		142495D12FCC0F9B0046F552 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1424962C2FCC11D50046F552 /* DateFormatterHelper.swift */,
+				1424962E2FCC11E60046F552 /* Extensions.swift */,
+				142496302FCC11ED0046F552 /* ColorTheme.swift */,
+				142496322FCC11FD0046F552 /* Constants.swift */,
+				142496342FCC12050046F552 /* PreviewData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		142495D22FCC0FAB0046F552 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		142495D32FCC0FB30046F552 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		142495D42FCC0FBF0046F552 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				142496842FCC15150046F552 /* Children.json */,
+				142496862FCC15220046F552 /* Activities.json */,
+				142496882FCC15290046F552 /* Meals.json */,
+				1424968A2FCC15320046F552 /* Events.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		142495D52FCC0FCF0046F552 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				142496362FCC12C60046F552 /* ParentDashboardView.swift */,
+				142496382FCC12D10046F552 /* ChildStatusCard.swift */,
+				1424963A2FCC12DB0046F552 /* TransportCard.swift */,
+				1424963C2FCC12E50046F552 /* AttendanceCard.swift */,
+				1424963E2FCC12ED0046F552 /* MealCard.swift */,
+				142496402FCC12F50046F552 /* DailySummaryCard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		142495D62FCC0FD70046F552 /* NurseryTour */ = {
+			isa = PBXGroup;
+			children = (
+				142496422FCC131A0046F552 /* NurseryTourView.swift */,
+				142496442FCC13240046F552 /* ClassroomView.swift */,
+				142496462FCC132D0046F552 /* PlayAreaView.swift */,
+				142496482FCC13360046F552 /* DiningAreaView.swift */,
+				1424964A2FCC13400046F552 /* OutdoorAreaView.swift */,
+				1424964C2FCC134A0046F552 /* ReadingCornerView.swift */,
+				1424964E2FCC13530046F552 /* TourInfoPanel.swift */,
+				1424969B2FCC231B0046F552 /* SafetyDeskPreviewView.swift */,
+			);
+			path = NurseryTour;
+			sourceTree = "<group>";
+		};
+		142495D72FCC0FDF0046F552 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				142496502FCC13600046F552 /* TransportTrackingView.swift */,
+				142496522FCC13690046F552 /* VehicleStatusView.swift */,
+				142496542FCC13700046F552 /* DriverInformationView.swift */,
+				142496562FCC13780046F552 /* RouteProgressView.swift */,
+				142496582FCC13830046F552 /* ArrivalEstimateView.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		142495D82FCC0FE70046F552 /* Safety */ = {
+			isa = PBXGroup;
+			children = (
+				1424965A2FCC13910046F552 /* SafetyDashboardView.swift */,
+				1424965C2FCC139F0046F552 /* EmergencyContactsView.swift */,
+				1424965E2FCC13A70046F552 /* IncidentSummaryView.swift */,
+				142496602FCC13B00046F552 /* SafeguardingView.swift */,
+				142496622FCC13B70046F552 /* ComplianceView.swift */,
+			);
+			path = Safety;
+			sourceTree = "<group>";
+		};
+		142495D92FCC0FF10046F552 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				142496642FCC13C30046F552 /* ChildActivitiesView.swift */,
+				142496662FCC13DC0046F552 /* ActivityTimelineView.swift */,
+				142496682FCC13E40046F552 /* MealScheduleView.swift */,
+				1424966A2FCC13EC0046F552 /* AttendanceView.swift */,
+				1424966C2FCC13F40046F552 /* EventCalendarView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		142495DA2FCC0FF90046F552 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1424966E2FCC14000046F552 /* GlassCardView.swift */,
+				142496702FCC140A0046F552 /* FloatingInfoPanel.swift */,
+				142496722FCC14110046F552 /* SpatialButton.swift */,
+				142496742FCC14190046F552 /* StatusBadgeView.swift */,
+				142496762FCC14210046F552 /* SectionHeaderView.swift */,
+				142496782FCC14280046F552 /* EmptyStateView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		142495DB2FCC10010046F552 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				1424967A2FCC14310046F552 /* MainWindowView.swift */,
+				1424967C2FCC14390046F552 /* ParentWindowView.swift */,
+				1424967E2FCC14410046F552 /* SafetyWindowView.swift */,
+				142496802FCC14490046F552 /* TourWindowView.swift */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		142496962FCC19C00046F552 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				14E0AFF72FC9560400DC10D9 /* NurseryConnectVisionApp.swift */,
+				142496972FCC19F80046F552 /* AppConstants.swift */,
+				142496992FCC19FF0046F552 /* AppRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		14E0AFE72FC9560300DC10D9 = {
+			isa = PBXGroup;
+			children = (
+				14E0AFF22FC9560400DC10D9 /* NurseryConnectVision */,
+				14E0AFF32FC9560400DC10D9 /* Packages */,
+				14E0AFF12FC9560400DC10D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E0AFF12FC9560400DC10D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E0AFF02FC9560400DC10D9 /* NurseryConnectVision.app */,
+				14E0B0052FC9560600DC10D9 /* NurseryConnectVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E0AFF22FC9560400DC10D9 /* NurseryConnectVision */ = {
+			isa = PBXGroup;
+			children = (
+				142496962FCC19C00046F552 /* App */,
+				142495D12FCC0F9B0046F552 /* Utilities */,
+				142495D02FCC0F930046F552 /* Resources */,
+				142495CF2FCC0F890046F552 /* Assets */,
+				142495CE2FCC0F7F0046F552 /* RealityKit */,
+				142495CD2FCC0F710046F552 /* ImmersiveSpace */,
+				142495CC2FCC0F660046F552 /* Views */,
+				142495CB2FCC0F450046F552 /* ViewModels */,
+				142495CA2FCC0F3D0046F552 /* Services */,
+				142495C92FCC0F330046F552 /* Models */,
+				14E0AFFB2FC9560600DC10D9 /* Assets.xcassets */,
+				14E0B0002FC9560600DC10D9 /* Info.plist */,
+				14E0AFFD2FC9560600DC10D9 /* Preview Content */,
+			);
+			path = NurseryConnectVision;
+			sourceTree = "<group>";
+		};
+		14E0AFF32FC9560400DC10D9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				14E0B0082FC9560600DC10D9 /* NurseryConnectVisionTests */,
+				14E0AFF42FC9560400DC10D9 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		14E0AFFD2FC9560600DC10D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14E0AFFE2FC9560600DC10D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14E0B0082FC9560600DC10D9 /* NurseryConnectVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E0B0092FC9560600DC10D9 /* NurseryConnectVisionTests.swift */,
+			);
+			path = NurseryConnectVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E0AFEF2FC9560400DC10D9 /* NurseryConnectVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E0B00D2FC9560600DC10D9 /* Build configuration list for PBXNativeTarget "NurseryConnectVision" */;
+			buildPhases = (
+				14E0AFEC2FC9560400DC10D9 /* Sources */,
+				14E0AFED2FC9560400DC10D9 /* Frameworks */,
+				14E0AFEE2FC9560400DC10D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurseryConnectVision;
+			packageProductDependencies = (
+				14E0AFF52FC9560400DC10D9 /* RealityKitContent */,
+			);
+			productName = NurseryConnectVision;
+			productReference = 14E0AFF02FC9560400DC10D9 /* NurseryConnectVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E0B0042FC9560600DC10D9 /* NurseryConnectVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E0B0102FC9560600DC10D9 /* Build configuration list for PBXNativeTarget "NurseryConnectVisionTests" */;
+			buildPhases = (
+				14E0B0012FC9560600DC10D9 /* Sources */,
+				14E0B0022FC9560600DC10D9 /* Frameworks */,
+				14E0B0032FC9560600DC10D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E0B0072FC9560600DC10D9 /* PBXTargetDependency */,
+			);
+			name = NurseryConnectVisionTests;
+			productName = NurseryConnectVisionTests;
+			productReference = 14E0B0052FC9560600DC10D9 /* NurseryConnectVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E0AFE82FC9560300DC10D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					14E0AFEF2FC9560400DC10D9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					14E0B0042FC9560600DC10D9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 14E0AFEF2FC9560400DC10D9;
+					};
+				};
+			};
+			buildConfigurationList = 14E0AFEB2FC9560300DC10D9 /* Build configuration list for PBXProject "NurseryConnectVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E0AFE72FC9560300DC10D9;
+			productRefGroup = 14E0AFF12FC9560400DC10D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E0AFEF2FC9560400DC10D9 /* NurseryConnectVision */,
+				14E0B0042FC9560600DC10D9 /* NurseryConnectVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E0AFEE2FC9560400DC10D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142496932FCC155C0046F552 /* SampleActivities.json in Resources */,
+				142496892FCC15290046F552 /* Meals.json in Resources */,
+				142496872FCC15220046F552 /* Activities.json in Resources */,
+				14E0AFFF2FC9560600DC10D9 /* Preview Assets.xcassets in Resources */,
+				1424968D2FCC153C0046F552 /* SampleChildren.json in Resources */,
+				142496912FCC154D0046F552 /* SampleMeals.json in Resources */,
+				142496852FCC15150046F552 /* Children.json in Resources */,
+				1424968B2FCC15320046F552 /* Events.json in Resources */,
+				142496952FCC15640046F552 /* SampleEvents.json in Resources */,
+				1424968F2FCC15440046F552 /* SampleAttendance.json in Resources */,
+				14E0AFFC2FC9560600DC10D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E0B0032FC9560600DC10D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E0AFEC2FC9560400DC10D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1424961F2FCC11810046F552 /* NurseryRealityView.swift in Sources */,
+				1424964D2FCC134A0046F552 /* ReadingCornerView.swift in Sources */,
+				142496012FCC10FA0046F552 /* SafetyService.swift in Sources */,
+				1424963F2FCC12ED0046F552 /* MealCard.swift in Sources */,
+				142495EB2FCC10910046F552 /* VehicleStatus.swift in Sources */,
+				142495ED2FCC10990046F552 /* NurseryArea.swift in Sources */,
+				142496212FCC11930046F552 /* NurseryEntity.swift in Sources */,
+				1424965B2FCC13910046F552 /* SafetyDashboardView.swift in Sources */,
+				1424967B2FCC14310046F552 /* MainWindowView.swift in Sources */,
+				1424966B2FCC13EC0046F552 /* AttendanceView.swift in Sources */,
+				142496632FCC13B70046F552 /* ComplianceView.swift in Sources */,
+				142495EF2FCC10A00046F552 /* SafetyNotice.swift in Sources */,
+				142496572FCC13780046F552 /* RouteProgressView.swift in Sources */,
+				1424966F2FCC14000046F552 /* GlassCardView.swift in Sources */,
+				142495E72FCC10790046F552 /* Parent.swift in Sources */,
+				1424967F2FCC14410046F552 /* SafetyWindowView.swift in Sources */,
+				142496092FCC111D0046F552 /* TransportViewModel.swift in Sources */,
+				1424964B2FCC13400046F552 /* OutdoorAreaView.swift in Sources */,
+				142495FB2FCC10DB0046F552 /* MockDataService.swift in Sources */,
+				142496232FCC119A0046F552 /* ClassroomEntity.swift in Sources */,
+				142496332FCC11FD0046F552 /* Constants.swift in Sources */,
+				1424961D2FCC117A0046F552 /* ImmersiveControlsView.swift in Sources */,
+				142496072FCC11150046F552 /* ParentDashboardViewModel.swift in Sources */,
+				142496252FCC11A10046F552 /* PlaygroundEntity.swift in Sources */,
+				142496172FCC11640046F552 /* PlayAreaImmersiveView.swift in Sources */,
+				142496432FCC131A0046F552 /* NurseryTourView.swift in Sources */,
+				1424960B2FCC11250046F552 /* NurseryTourViewModel.swift in Sources */,
+				142496732FCC14110046F552 /* SpatialButton.swift in Sources */,
+				142496472FCC132D0046F552 /* PlayAreaView.swift in Sources */,
+				142496372FCC12C60046F552 /* ParentDashboardView.swift in Sources */,
+				142496412FCC12F50046F552 /* DailySummaryCard.swift in Sources */,
+				14E0AFF82FC9560400DC10D9 /* NurseryConnectVisionApp.swift in Sources */,
+				1424963B2FCC12DB0046F552 /* TransportCard.swift in Sources */,
+				142496052FCC110B0046F552 /* AssetLoaderService.swift in Sources */,
+				1424962D2FCC11D50046F552 /* DateFormatterHelper.swift in Sources */,
+				1424960F2FCC11350046F552 /* ChildActivityViewModel.swift in Sources */,
+				142495E52FCC10690046F552 /* Child.swift in Sources */,
+				142496112FCC113E0046F552 /* ImmersiveViewModel.swift in Sources */,
+				142495F72FCC10C40046F552 /* NurseryEvent.swift in Sources */,
+				142496712FCC140A0046F552 /* FloatingInfoPanel.swift in Sources */,
+				142496292FCC11AF0046F552 /* GardenEntity.swift in Sources */,
+				1424961B2FCC11720046F552 /* GardenImmersiveView.swift in Sources */,
+				142496982FCC19F80046F552 /* AppConstants.swift in Sources */,
+				1424962B2FCC11B60046F552 /* ChildAvatarEntity.swift in Sources */,
+				1424960D2FCC112D0046F552 /* SafetyViewModel.swift in Sources */,
+				1424969C2FCC231C0046F552 /* SafetyDeskPreviewView.swift in Sources */,
+				142496692FCC13E40046F552 /* MealScheduleView.swift in Sources */,
+				1424967D2FCC14390046F552 /* ParentWindowView.swift in Sources */,
+				142496652FCC13C30046F552 /* ChildActivitiesView.swift in Sources */,
+				142496812FCC14490046F552 /* TourWindowView.swift in Sources */,
+				1424964F2FCC13530046F552 /* TourInfoPanel.swift in Sources */,
+				142495F52FCC10BD0046F552 /* ChildMeal.swift in Sources */,
+				142496772FCC14210046F552 /* SectionHeaderView.swift in Sources */,
+				1424965D2FCC139F0046F552 /* EmergencyContactsView.swift in Sources */,
+				142495FF2FCC10EC0046F552 /* ParentDashboardService.swift in Sources */,
+				142496552FCC13700046F552 /* DriverInformationView.swift in Sources */,
+				1424965F2FCC13A70046F552 /* IncidentSummaryView.swift in Sources */,
+				142496452FCC13240046F552 /* ClassroomView.swift in Sources */,
+				142496612FCC13B00046F552 /* SafeguardingView.swift in Sources */,
+				142496672FCC13DC0046F552 /* ActivityTimelineView.swift in Sources */,
+				142496312FCC11ED0046F552 /* ColorTheme.swift in Sources */,
+				142496532FCC13690046F552 /* VehicleStatusView.swift in Sources */,
+				142496152FCC115D0046F552 /* ClassroomImmersiveView.swift in Sources */,
+				142496192FCC116B0046F552 /* DiningImmersiveView.swift in Sources */,
+				1424969A2FCC19FF0046F552 /* AppRouter.swift in Sources */,
+				142495E92FCC10870046F552 /* TransportStatus.swift in Sources */,
+				142496752FCC14190046F552 /* StatusBadgeView.swift in Sources */,
+				142495FD2FCC10E30046F552 /* TransportService.swift in Sources */,
+				142496352FCC12050046F552 /* PreviewData.swift in Sources */,
+				142496512FCC13600046F552 /* TransportTrackingView.swift in Sources */,
+				142495F12FCC10A80046F552 /* DailyActivity.swift in Sources */,
+				142495F92FCC10CD0046F552 /* TourLocation.swift in Sources */,
+				1424963D2FCC12E50046F552 /* AttendanceCard.swift in Sources */,
+				1424962F2FCC11E60046F552 /* Extensions.swift in Sources */,
+				142496132FCC11550046F552 /* NurseryImmersiveView.swift in Sources */,
+				142495F32FCC10B20046F552 /* ChildAttendance.swift in Sources */,
+				142496392FCC12D10046F552 /* ChildStatusCard.swift in Sources */,
+				142496032FCC11030046F552 /* TourService.swift in Sources */,
+				1424966D2FCC13F40046F552 /* EventCalendarView.swift in Sources */,
+				142496272FCC11A80046F552 /* DiningEntity.swift in Sources */,
+				142496592FCC13830046F552 /* ArrivalEstimateView.swift in Sources */,
+				142496492FCC13360046F552 /* DiningAreaView.swift in Sources */,
+				142496792FCC14280046F552 /* EmptyStateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E0B0012FC9560600DC10D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E0B00A2FC9560600DC10D9 /* NurseryConnectVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E0B0072FC9560600DC10D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E0AFEF2FC9560400DC10D9 /* NurseryConnectVision */;
+			targetProxy = 14E0B0062FC9560600DC10D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14E0B00B2FC9560600DC10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		14E0B00C2FC9560600DC10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		14E0B00E2FC9560600DC10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectVision/Preview Content\"";
+				DEVELOPMENT_TEAM = VTZK896352;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT22118318.NurseryConnectVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		14E0B00F2FC9560600DC10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NurseryConnectVision/Preview Content\"";
+				DEVELOPMENT_TEAM = VTZK896352;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT22118318.NurseryConnectVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		14E0B0112FC9560600DC10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTZK896352;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT22118318.NurseryConnectVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseryConnectVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseryConnectVision";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		14E0B0122FC9560600DC10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTZK896352;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT22118318.NurseryConnectVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurseryConnectVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NurseryConnectVision";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E0AFEB2FC9560300DC10D9 /* Build configuration list for PBXProject "NurseryConnectVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E0B00B2FC9560600DC10D9 /* Debug */,
+				14E0B00C2FC9560600DC10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E0B00D2FC9560600DC10D9 /* Build configuration list for PBXNativeTarget "NurseryConnectVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E0B00E2FC9560600DC10D9 /* Debug */,
+				14E0B00F2FC9560600DC10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E0B0102FC9560600DC10D9 /* Build configuration list for PBXNativeTarget "NurseryConnectVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E0B0112FC9560600DC10D9 /* Debug */,
+				14E0B0122FC9560600DC10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14E0AFF52FC9560400DC10D9 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14E0AFE82FC9560300DC10D9 /* Project object */;
+}
